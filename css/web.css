@@ -1,0 +1,150 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Georgia", serif;
+  color: black;
+  background-size: 100%;
+  line-height: 1.5;
+  background-color: rgb(231,231,231);
+}
+
+header {
+  font-family: "didot", serif;
+  color: rgb(112,25,43);
+  text-align: center;
+  font-size:700%;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 80%;
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
+
+address {
+  font-size: 70%;
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
+
+#container {
+  margin: 32px auto;
+  width: 960px;
+  padding: 16px;
+}
+
+nav {
+  text-align:center;
+  background:url(../img/abstract.png);
+}
+
+nav ul {
+  padding: 16px;
+  border: 1px dotted;
+  text-decoration: none;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 16px;
+
+
+}
+
+nav ul li a {color: white;}
+
+nav ul li > a:visited {
+     color: rgb(230,230,232);
+}
+
+nav ul li > a:hover {
+     background-color: rgb(230,230,232);
+     -webkit-transition:background-color linear .8s;
+     color: black;
+     border: 1px solid rgb(6,52,145);
+}
+
+h2 {
+  font-family: "didot", serif;
+  color: rgb(112,25,43);
+  font-style: bold;
+  font-size:150%;
+  margin-bottom: 0;
+}
+
+section {
+  border-top: 1px dotted;
+}
+
+section h2 {
+  width: 150px;
+  float: left;
+}
+
+article {
+  margin: 16px;
+  margin-left: 200px;
+}
+
+article h3,
+article p {
+  margin: 0;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 16px;
+}
+
+div.background {
+    width: 960px;
+    height: 200px;
+    background: url(../img/abstract.png);
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.transbox {
+    width: 860px;
+    height: 150px;
+    margin: 30px 50px;
+    background-color: rgb(225,225,225);
+    border: 1px dotted black;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    float: center;
+}
+
+div.transbox p {
+    margin: 30px 40px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0,0,0);
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+    color: rgb(112,25,43);
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+  font-family: "Georgia", serif;
+  color: black;
+  font-size: 0.9em;
+  font-style: oblique;
+  margin-top: 20px;
+}

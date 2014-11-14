@@ -1,0 +1,96 @@
+html {
+  font-size: 12pt;
+}
+
+body {
+  font-family: "Georgia", serif;
+  color: black;
+  background-size: 100%;
+  line-height: 130%;
+  background-color: rgb(231,231,231);
+}
+
+header {
+  font-family: "didot", serif;
+  color: rgb(112,25,43);
+  text-align: center;
+  font-size:700%;
+  margin-bottom: 50pt;
+}
+
+h1 {
+  font-size: 80%;
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
+
+address {
+  font-size: 70%;
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
+
+#container {
+  margin: 32pt auto;
+  width: 960pt;
+  padding: 12pt;
+}
+
+nav {
+  display: none;
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul li {
+  display: none;
+}
+
+h2 {
+  font-family: "didot", serif;
+  color: rgb(112,25,43);
+  font-style: bold;
+  font-size:150%;
+  margin-bottom: 0;
+}
+
+section {
+  border-top: 1pt dotted;
+}
+
+section h2 {
+  width: 150pt;
+  float: left;
+}
+
+article {
+  margin: 12pt;
+  margin-left: 200pt;
+}
+
+article h3,
+article p {
+  margin: 0;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 12pt;
+}
+
+div.background {
+    display: none;
+
+}
+
+a[href$="http://"] {
+  display: none;
+}
+
+footer a:first-child {
+  display: none;
+}
