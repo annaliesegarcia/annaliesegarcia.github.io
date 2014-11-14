@@ -10,6 +10,19 @@ body {
   background-color: rgb(231,231,231);
 }
 
+
+a:link {
+  color: black;
+}
+
+a:visited {
+    color: rgb(112,25,43);
+}
+
+a:hover {
+    color: rgb(112,25,43);
+}
+
 header {
   font-family: "didot", serif;
   color: rgb(112,25,43);
@@ -53,11 +66,9 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 16px;
-
+  color: white;
 
 }
-
-nav ul li a {color: white;}
 
 nav ul li > a:visited {
      color: rgb(230,230,232);
@@ -129,17 +140,6 @@ div.transbox p {
     color: rgb(0,0,0);
 }
 
-a:link {
-  color: black;
-}
-
-a:visited {
-    color: rgb(112,25,43);
-}
-
-a:hover {
-    color: white;
-}
 
 footer {
   font-family: "Georgia", serif;
