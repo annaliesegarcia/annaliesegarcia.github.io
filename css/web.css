@@ -10,14 +10,33 @@ body {
   background-color: rgb(231,231,231);
 }
 
-
-a:link {
+a {
   color: white;
 }
 
 a:visited {
-    color: rgb(112,25,43);
+    color: rgb(112,25,43); /*red*/
 }
+
+a .fa,
+a:visited .fa {
+  color: rgb(112,25,43); /*red*/
+}
+
+.boxed {
+  color: white;
+  padding: 10px;
+  margin-left: 450px;
+  width: 497px;
+  height: 424px;
+  font-size: 16px;
+  background-color: black;
+}
+
+.boxed p {
+  margin-top: 0;
+}
+
 
 header {
   font-family: "didot", serif;
@@ -27,11 +46,44 @@ header {
   margin-bottom: 0;
 }
 
-h1 {
-  font-size: 80%;
+nav {
+  width: 100%;
   text-align: center;
-  color: grey;
-  font-style: italic;
+  background:url(../img/abstract.png);
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+  width: 900px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 16px;
+  text-align: center;
+  color: rgb(231,231,231);
+}
+
+nav ul li a,
+nav ul li a:visited {
+  color: rgb(231,231,231);
+}
+
+nav ul li > a:hover {
+     background-color: rgb(112,25,43);
+     -webkit-transition:background-color linear .8s;
+     color: white;
+}
+
+
+h1 {
+  font-size: 100%;
+  text-align: center;
+  color:grey;
 }
 
 address {
@@ -47,35 +99,6 @@ address {
   padding: 16px;
 }
 
-nav {
-  text-align:center;
-  background:url(../img/abstract.png);
-}
-
-nav ul {
-  padding: 16px;
-  border: 1px dotted;
-  text-decoration: none;
-
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 16px;
-  color: rgb(112,25,43);
-
-}
-
-nav ul li > a:visited {
-     color: rgb(230,230,232);
-}
-
-nav ul li > a:hover {
-     background-color: rgb(230,230,232);
-     -webkit-transition:background-color linear .8s;
-     color: black;
-     border: 1px solid rgb(6,52,145);
-}
 
 h2 {
   font-family: "didot", serif;
@@ -104,6 +127,21 @@ article p {
   margin: 0;
 }
 
+#photos img {
+  border: 2px solid black;
+  margin: 10px;
+  margin-left: 0;
+  width: 956px;
+  height: 600px;
+}
+
+#me {
+  float: left;
+  border: 2px solid black;
+  width: 412px;
+  height: 440px;
+}
+
 h4 {
   font-style: italic;
   font-size: 16px;
@@ -122,11 +160,10 @@ div.transbox {
     width: 860px;
     height: 150px;
     margin: 30px 50px;
-    background-color: rgb(225,225,225);
+    background-color: rgb(225,225,225); /*white grey*/
     border: 1px dotted black;
     opacity: 0.8;
     filter: alpha(opacity=80);
-    float: center;
 }
 
 div.transbox p {
@@ -135,7 +172,6 @@ div.transbox p {
     font-weight: bold;
     color: rgb(0,0,0);
 }
-
 
 footer {
   font-family: "Georgia", serif;
