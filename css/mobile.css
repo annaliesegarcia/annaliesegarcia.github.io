@@ -1,10 +1,14 @@
-}
 @media (max-width: 320px) {
 
 body {
+    font-family: "Georgia", serif;
     background: rgb(231,231,231);;
-    font-size: 24px;
+    font-size: 18px;
     max-width: 320px;
+    background-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -13,18 +17,6 @@ ul {
 
 ul li {
     padding: 0.25em 0;
-}
-
-  html {
-    font-size: 16px;
-}
-
-  body {
-    font-family: "Georgia", serif;
-    color: black;
-    background-size: 100%;
-    line-height: 1.5;
-    background-color: rgb(231,231,231);
 }
 
 a {
@@ -43,10 +35,10 @@ a:visited .fa {
 .boxed {
     color: white;
     padding: 10px;
-    margin-left: 450px;
-    width: 497px;
-    height: 424px;
-    font-size: 16px;
+    margin-left: 253px;
+    width: 300px;
+    height: auto;
+    font-size: 12px;
     background-color: black;
 }
 
@@ -64,24 +56,25 @@ header {
 }
 
 nav {
-    width: 100%;
+    display: none;
+    width: auto;
     text-align: center;
     background:url(../img/abstract.png);
-    font-size: 16px;
-    margin-bottom: 40px;
+    font-size: 12px;
+    margin-bottom: 0;
 }
 
 nav ul {
-    padding: 16px;
+    padding: 5px;
     text-decoration: none;
     text-align: center;
-    width: 900px;
+    width: auto;
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 16px;
     text-align: center;
+    margin-right: 10px;
     color: rgb(231,231,231);
 }
 
@@ -98,22 +91,18 @@ nav ul li > a:hover {
 
 
 h1 {
-    font-size: 100%;
-    text-align: center;
+    font-size: 28px;
+    margin: 14px 0;
+    text-align: left;
     color:grey;
+    max-width: 320px;
 }
 
-address {
-    font-size: 70%;
-    text-align: center;
-    color: grey;
-    font-style: italic;
-}
 
 #container {
-    margin: 32px auto;
-    width: 960px;
-    padding: 16px;
+    margin: 0;
+    width: 320px;
+    padding: 10px;
 }
 
 
@@ -121,47 +110,57 @@ h2 {
     font-family: "didot", serif;
     color: rgb(112,25,43);
     font-style: bold;
-    font-size:150%;
+    font-size: 150%;
     margin-bottom: 0;
 }
 
 section {
-    border-top: 1px dotted;
+  border-top: 1px dotted;
 }
 
 section h2 {
-    width: 150px;
-    float: left;
+  width: auto;
+  float: none;
 }
 
 article {
-    margin: 16px;
-    margin-left: 200px;
+  margin-left: 0;
 }
+
 
 article h3,
 article p {
-    margin: 0;
+  margin: 0;
+  font-size: 18px;
 }
 
 #photos img {
     border: 2px solid black;
     margin: 10px;
     margin-left: 0;
-    width: 956px;
-    height: 600px;
+    width: 656px;
+    height: 300px;
 }
 
 #me {
     float: left;
     border: 2px solid black;
-    width: 412px;
-    height: 440px;
+    width: 292px;
+    height: 320px;
+}
+
+#social article p {
+  display: inline-block;
+}
+
+#social .fa {
+  font-size: 300%;
+  width: 80px;
 }
 
 h4 {
     font-style: italic;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 div.background {
